@@ -17,7 +17,7 @@ export default function Home() {
           <div className="sticky top-0 rounded-2xl">
             <Image
               className="object-none object-center rounded-2xl w-full h-200 z-10 md:object-cover"
-              src="/images/home/mountains.png"
+              src="/images/home/mountains.jpg"
               alt="Hydrogen world"
               priority
               unoptimized
