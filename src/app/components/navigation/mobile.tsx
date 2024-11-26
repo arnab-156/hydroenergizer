@@ -9,7 +9,7 @@ const MobileNav = () => {
             <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="#about-me">
                 About
             </Link>
-            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="/">
+            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="#social">
                 Social
             </Link>
             <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="/">
