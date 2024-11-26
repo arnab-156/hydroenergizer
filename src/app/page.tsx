@@ -33,11 +33,22 @@ export default function Home() {
           <div className="sticky top-0 rounded-2xl">
             <video
               controls autoPlay
-              className="w-full h-full"
+              className="hidden w-full h-full md:block"
               loop
             >
-              <source src="/videos/HydroVids.mp4" type="video/mp4" />
+              <source className="hidden md:block" src="/videos/HydroVids.mp4" type="video/mp4" />
             </video>
+
+
+            <video
+              controls autoPlay
+              className="w-full h-full md:hidden dark:invert"
+              loop
+            >
+              <source className="" src="/videos/mobile_hero.mp4" type="video/mp4" />
+            </video>
+
+
 
           </div>
 
