@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className={
-            `group w-[calc(100%)] bottom-0 bg-gray flex flex-col items-center justify-center rounded-b-2xl h-full md:h-50
+            `group w-[calc(100%)] bottom-0 bg-gray flex flex-col items-center justify-center rounded-b-2xl md:h-50
             `
         }>
             <Image
