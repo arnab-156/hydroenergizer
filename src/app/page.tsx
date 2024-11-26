@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
-import Navigation from "./components/navigation/navigation";
+import DesktopNav from "./components/navigation/desktop";
+import MobileNav from "./components/navigation/mobile";
 import Footer from "./components/footer/footer";
 import OutlinedButton from "./components/button/outlineButton";
 
@@ -19,18 +20,17 @@ export default function Home() {
             md:mx-2 md:rounded-2xl md:mt-4 md:h-[calc(95%)]   
           `
         }>
-        <Navigation />
+        <DesktopNav />
         {/* Inner Blk line wrapper */}
         <div className={
           `border border-5 border-black overflow-y-auto overflow-x-hidden
-          mt-16 h-[calc(95%-3rem)] 
-          sm:w-full
+          sm:w-full md:mt-16 h-[calc(95%-3rem)] 
           md:w-[calc(100%-2rem)] md:rounded-2xl
           `
         }>
 
           {/* hero vids */}
-          <div className="sticky top-0 rounded-2xl dark:invert">
+          <div className="sticky top-0 rounded-2xl dark:invert" >
             <video
               controls autoPlay
               className="hidden w-full h-full md:block"
@@ -50,8 +50,9 @@ export default function Home() {
           </div>
 
           <main className={`
-            flexflex-col items-center bg-background rounded-b-2xl h-screen md:h-full px-4 mt-8 overflow-visible md:overflow-y-auto
-            sticky top-0 z-30 content-center mt-[calc(-4rem)] dark:invert`}>
+            flex flex-col items-center bg-background px-4 mt-8 overflow-visible pb-16
+            md:h-full md:overflow-y-auto md:rounded-b-2xl md:mt-[calc(-4rem)] md:pb-0
+            sticky top-0 z-30 content-center dark:invert`}>
             <section className={`h-48 flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
               <p className={`my-4`} id="about-me">
@@ -70,14 +71,12 @@ export default function Home() {
                 </Link>
               </div>
             </section>
-
-
             <Footer />
           </main>
         </div>
         {/* End of Blue line wrapper */}
+        <MobileNav />
       </div>
-
     </div>
   );
 }
