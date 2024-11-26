@@ -22,7 +22,7 @@ export default function Home() {
         <Navigation />
         {/* Inner Blk line wrapper */}
         <div className={
-          `border border-5 border-black overflow-y-auto 
+          `border border-5 border-black overflow-y-auto overflow-x-hidden
           mt-16 h-[calc(95%-3rem)] 
           sm:w-full
           md:w-[calc(100%-2rem)] md:rounded-2xl
@@ -31,16 +31,6 @@ export default function Home() {
 
           {/* hero */}
           <div className="sticky top-0 rounded-2xl">
-            {/* <Image
-              className="w-full h-full"
-              src="/images/home/HydroVid.png"
-              alt="Hydrogen world"
-              priority
-              unoptimized
-            /> */}
-
-
-
             <video
               controls autoPlay
               className="w-full h-full"
@@ -49,87 +39,31 @@ export default function Home() {
               <source src="/videos/HydroVids.mp4" type="video/mp4" />
             </video>
 
-
-
-            {/* <div className="absolute top-1/4 left-1/2 transform -translate-x-[50%] flex flex-col justify-center fixed">
-              <Image
-                className="rounded-2xl"
-                src="/images/home/hydro_name.svg"
-                alt="logo of hydro's palace"
-                priority
-                unoptimized
-              />
-
-              <div className="flex justify-center m-auto mt-6">
-                <OutlinedButton title="Contact us" url="/" backgroundColor="background" />
-              </div>
-            </div> */}
           </div>
 
           <main className={`
             flexflex-col items-center bg-background rounded-b-2xl h-full 
-            overflow-y-auto w-screen px-4 pt-8 
+            overflow-y-auto px-4 pt-8 
             sticky top-0 z-30 content-center`}>
             <section className={`h-48 overflow-y-auto flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+              <p className={`mt-4`}>
+                Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
+                We delve into the science, technology, and societal implications of this transformative element.
               </p>
 
-              <div className={`rounded-lg border border-2 border-black w-64`}>
+              <div className={`rounded-lg border border-2 border-black w-64 pt-4 m-auto`}>
                 <Link className={
                   `uppercase flex justify-center items-center rounded-md 
-                text-background bg-black
-                scale-x-95 scale-y-90 
-                p-2 md:p-4 hover:scale-100 transition delay-100 duration-700 ease-in-out`}
+                  text-background bg-black
+                  scale-x-95 scale-y-90 
+                  p-2 md:p-4 hover:scale-100 transition delay-100 duration-700 ease-in-out dark:invert dark:text-foreground`}
                   href={"/"}>
-                  Learn About Hydro Energizer
+                  Learn More...
                 </Link>
               </div>
             </section>
 
-
-            <section className={`h-48 overflow-y-auto`}>
-              {/* Div is background image with flush card with double outline (headline, title, para, button) */}
-              <div>
-                Paragraph 1:
-
-                Welcome to our website!
-                [Briefly describe your company or organization and what you offer.]edicated to [your mission or values]. Our team of experts has years of experience in [relevant field] and is committed to providing exceptional service to our customers.
-
-                Paragraph 3:
-
-                We invite you to explore our website and learn more about what we do. Feel free to contact us if you have any questions or would like to schedule a consultation. We look forward to helping you [achieve your goals or solve your problems].
-              </div>
-              <div>
-                Paragraph 1:
-
-                Welcome to our website!
-                [Briefly describe your company or organization and what you offer.]edicated to [your mission or values]. Our team of experts has years of experience in [relevant field] and is committed to providing exceptional service to our customers.
-
-                Paragraph 3:
-
-                We invite you to explore our website and learn more about what we do. Feel free to contact us if you have any questions or would like to schedule a consultation. We look forward to helping you [achieve your goals or solve your problems].
-              </div>
-            </section>
-
-
-            <section className={`h-48 overflow-y-auto`}>
-              {/* Div is some text, a styled button, and two images */}
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-              <div className={`border rounded-md border-leaf`}>
-                <Link className={
-                  `uppercase flex justify-center items-center rounded-md 
-                text-background bg-leaf
-                scale-x-95 scale-y-90 
-                p-2 md:p-4 hover:scale-100 transition delay-100 duration-700 ease-in-out`}
-                  href={"/"}>
-                  View Menu
-                </Link>
-              </div>
-            </section>
 
             <Footer />
           </main>
