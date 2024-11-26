@@ -15,7 +15,7 @@ const Footer = () => {
                 unoptimized
             />
 
-            <section className=" h-96 flex">
+            <section className=" w-full h-96 flex m-auto">
                 <div className={`
                     grid grid-cols-1 md:grid-cols-2 md:grid-rows-3
                     lg:grid-cols-3 lg:grid-rows-2 gap-x-16 gap-y-4 mt-12 m-2 text-white
