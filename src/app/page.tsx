@@ -13,7 +13,7 @@ export default function Home() {
       <div
         className={
           `group flex flex-col items-center
-            justify-between border-2 border-black
+            justify-between border-2 border-black dark:invert
             fixed top-0 left-0 right-0 bottom-0
             sm:mx-0 sm:mt-0 h-[calc(100%)]  
             md:mx-2 md:rounded-2xl md:mt-4 md:h-[calc(95%)]   
@@ -30,7 +30,7 @@ export default function Home() {
         }>
 
           {/* hero */}
-          <div className="sticky top-0 rounded-2xl">
+          <div className="sticky top-0 rounded-2xl dark:invert">
             <video
               controls autoPlay
               className="hidden w-full h-full md:block"
@@ -53,22 +53,21 @@ export default function Home() {
           </div>
 
           <main className={`
-            flexflex-col items-center bg-background rounded-b-2xl h-full 
-            overflow-y-auto px-4 pt-8 
-            sticky top-0 z-30 content-center`}>
-            <section className={`h-48 overflow-y-auto flex flex-col`}>
+            flexflex-col items-center bg-background rounded-b-2xl h-full px-4 pt-8 overflow-y-auto
+            sticky top-0 z-30 content-center mt-[calc(-4rem)] dark:invert`}>
+            <section className={`h-48 flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
-              <p className={`mt-4`}>
+              <p className={`my-4`}>
                 Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
                 We delve into the science, technology, and societal implications of this transformative element.
               </p>
 
-              <div className={`rounded-lg border border-2 border-black w-64 pt-4 m-auto`}>
+              <div className={`rounded-lg border border-2 border-black w-64 m-auto dark:invert`}>
                 <Link className={
                   `uppercase flex justify-center items-center rounded-md 
                   text-background bg-black
-                  scale-x-95 scale-y-90 
-                  p-2 md:p-4 hover:scale-100 transition delay-100 duration-700 ease-in-out dark:invert dark:text-foreground`}
+                  scale-x-95 scale-y-90 py-3 md:px-4 
+                  hover:scale-100 transition delay-100 duration-700 ease-in-out dark:invert dark:bg-white`}
                   href={"/"}>
                   Learn More...
                 </Link>
