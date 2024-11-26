@@ -5,9 +5,6 @@ const DesktopNav = () => {
 
     return (
         <nav className="hidden md:flex flex-row-reverse md:flex-row flex-grow w-[calc(100%-2rem)] fixed z-10 justify-evenly dark:invert">
-            <Link className={$className} href="/">
-                Home
-            </Link>
             <Link className={$className} href="#about-me">
                 About
             </Link>
