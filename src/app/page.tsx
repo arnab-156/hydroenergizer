@@ -30,18 +30,16 @@ export default function Home() {
           {/* hero vids */}
           <div className="sticky top-0 rounded-2xl dark:invert" id="home">
             <video
-              controls autoPlay
+              controls autoPlay muted loop playsInline
               className="hidden w-full h-full md:block"
-              loop
             >
               <source className="hidden md:block" src="/videos/HydroVids.mp4" type="video/mp4" />
             </video>
 
 
             <video
-              controls autoPlay
+              controls autoPlay muted loop playsInline
               className="w-full h-full md:hidden dark:invert"
-              loop
             >
               <source className="" src="/videos/mobile_hero.mp4" type="video/mp4" />
             </video>
