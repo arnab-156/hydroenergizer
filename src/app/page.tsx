@@ -1,9 +1,7 @@
-import Image from "next/image";
 import Link from 'next/link';
 import DesktopNav from "./components/navigation/desktop";
 import MobileNav from "./components/navigation/mobile";
 import Footer from "./components/footer/footer";
-import OutlinedButton from "./components/button/outlineButton";
 
 export default function Home() {
   return (
@@ -30,20 +28,18 @@ export default function Home() {
         }>
 
           {/* hero vids */}
-          <div className="sticky top-0 rounded-2xl dark:invert" >
+          <div className="sticky top-0 rounded-2xl dark:invert" id="home">
             <video
-              controls autoPlay
+              controls autoPlay muted loop playsInline
               className="hidden w-full h-full md:block"
-              loop
             >
               <source className="hidden md:block" src="/videos/HydroVids.mp4" type="video/mp4" />
             </video>
 
 
             <video
-              controls autoPlay
+              controls autoPlay muted loop playsInline
               className="w-full h-full md:hidden dark:invert"
-              loop
             >
               <source className="" src="/videos/mobile_hero.mp4" type="video/mp4" />
             </video>
@@ -51,11 +47,11 @@ export default function Home() {
 
           <main className={`
             flex flex-col items-center bg-background px-4 mt-8 overflow-visible pb-16
-            md:h-full md:overflow-y-auto md:rounded-b-2xl md:mt-[calc(-4rem)] md:pb-0
+            md:h-full md:overflow-y-auto md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
             sticky top-0 z-30 content-center dark:invert`}>
             <section className={`h-48 flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
-              <p className={`my-4`} id="about-me">
+              <p className={`my-4 w-96`} id="about-me">
                 Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
                 We delve into the science, technology, and societal implications of this transformative element.
               </p>
