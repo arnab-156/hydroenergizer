@@ -11,7 +11,7 @@ const Footer = () => {
                 aria-hidden
                 src="/images/hydrologo.gif"
                 alt="stylized logo"
-                className="mt-12 px-24"
+                className="mt-12 px-24 dark:invert"
                 unoptimized
             />
 
