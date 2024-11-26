@@ -31,23 +31,23 @@ export default function Home() {
 
           {/* hero */}
           <div className="sticky top-0 rounded-2xl">
-            <Image
+            {/* <Image
               className="w-full h-full"
               src="/images/home/HydroVid.png"
               alt="Hydrogen world"
               priority
               unoptimized
-            />
+            /> */}
 
 
 
-            {/* <video
+            <video
               controls autoPlay
               className="w-full h-full"
               loop
             >
-              <source src="/images/home/HydroVid.mp4" type="video/mp4" />
-            </video> */}
+              <source src="/videos/HydroVids.mp4" type="video/mp4" />
+            </video>
 
 
 
