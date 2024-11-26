@@ -18,31 +18,31 @@ const Footer = () => {
             <section className="w-full h-96 flex m-auto">
                 <div className={`
                     grid grid-cols-1 md:grid-cols-2 md:grid-rows-3
-                    lg:grid-cols-3 lg:grid-rows-2 gap-x-16 gap-y-4 my-3 md:my-0 md:mx-auto text-white
+                    lg:grid-cols-3 lg:grid-rows-2 gap-x-16 gap-y-4 my-3 md:my-0 md:mx-auto 
                     `}>
                     <div className="">
-                        <h3 className="text-2xl text-white underline">Company</h3>
+                        <h3 className="text-2xl underline">Company</h3>
                         <Link href={'/#about-me'}>About</Link>
                         <p>Contact</p>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-white underline">Shop</h3>
+                        <h3 className="text-2xl underline">Shop</h3>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-white underline">Social</h3>
+                        <h3 className="text-2xl underline">Social</h3>
                         <Link href={'https://www.instagram.com/hydro_energizer/'} id='social'>Instagram</Link>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Contact Us</h3>
+                        <h3 className="text-2xl underline" id='contact'>Contact Us</h3>
                         <p>info@hydroenergizer.com</p>
                         <p>+1(479) HYD-ROGEN</p>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Location</h3>
+                        <h3 className="text-2xl underline">Location</h3>
                         <p>Washington DC</p>
                         <p>Mountain View AR</p>
                     </div>
