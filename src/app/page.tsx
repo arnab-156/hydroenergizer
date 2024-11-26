@@ -51,7 +51,7 @@ export default function Home() {
 
           <main className={`
             flex flex-col items-center bg-background px-4 mt-8 overflow-visible pb-16
-            md:h-full md:overflow-y-auto md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
+            md:h-max md:overflow-y-visible md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
             sticky top-0 z-30 content-center dark:invert`}>
             <section className={`flex flex-col`}>
               <p className={`block my-4 w-96`} id="about-me">
@@ -71,17 +71,17 @@ export default function Home() {
               </div>
 
               <p className={`block my-4 w-96`}>
-              In the realm of energy, hydrogen offers a clean and efficient alternative to fossil fuels. 
-              Through processes like electrolysis, hydrogen can be produced from water using renewable energy sources. 
-              This "green hydrogen" can then be used to power fuel cells, generating electricity without harmful emissions. 
-              Additionally, hydrogen can be stored and transported, making it a versatile energy carrier.
+                In the realm of energy, hydrogen offers a clean and efficient alternative to fossil fuels.
+                Through processes like electrolysis, hydrogen can be produced from water using renewable energy sources.
+                This "green hydrogen" can then be used to power fuel cells, generating electricity without harmful emissions.
+                Additionally, hydrogen can be stored and transported, making it a versatile energy carrier.
               </p>
 
               <p className={`block my-4 w-96`}>
-              Beyond energy, hydrogen's potential extends to other areas. Some scientists speculate that life forms based on hydrogen
-               could exist in extreme environments, such as deep-sea hydrothermal vents or extraterrestrial planets. 
-               These hypothetical "hydrogen-based life" forms would use hydrogen as a source of energy and building blocks, 
-               fundamentally different from carbon-based life on Earth.
+                Beyond energy, hydrogen's potential extends to other areas. Some scientists speculate that life forms based on hydrogen
+                could exist in extreme environments, such as deep-sea hydrothermal vents or extraterrestrial planets.
+                These hypothetical "hydrogen-based life" forms would use hydrogen as a source of energy and building blocks,
+                fundamentally different from carbon-based life on Earth.
               </p>
             </section>
 
