@@ -1,21 +1,22 @@
 import Link from 'next/link';
 
 const MobileNav = () => {
+    const $className = "flex md:hidden justify-center space-around items-center px-2 m-2  h-10 hover:underline";
     return (
         <nav className="flex md:hidden flex-row-reverse flex-grow w-full justify-evenly dark:invert">
-            <Link className="flex md:hidden justify-center space-around items-center px-2 m-2  h-10 hover:underline" href="/">
+            <Link className={$className} href="/">
                 Home
             </Link>
-            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="#about-me">
+            <Link className={$className} href="#about-me">
                 About
             </Link>
-            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="#social">
+            <Link className={$className} href="#social">
                 Social
             </Link>
-            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="/">
+            <Link className={$className} href="/">
                 Shop
             </Link>
-            <Link className="flex md:hidden justify-center items-center px-2 m-2 h-10 hover:underline" href="#contact">
+            <Link className={$className} href="#contact">
                 Contact
             </Link>
 
