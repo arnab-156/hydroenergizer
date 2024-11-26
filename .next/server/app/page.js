@@ -14,7 +14,7 @@
           md:w-[calc(100%-2rem)] md:rounded-2xl
           `,children:[(0,n.jsxs)("div",{className:"sticky top-0 rounded-2xl dark:invert",id:"home",children:[(0,n.jsx)("video",{controls:!0,autoPlay:!0,muted:!0,loop:!0,playsInline:!0,className:"hidden w-full h-full md:block",children:(0,n.jsx)("source",{className:"hidden md:block",src:"/videos/HydroVids.mp4",type:"video/mp4"})}),(0,n.jsx)("video",{controls:!0,autoPlay:!0,muted:!0,loop:!0,playsInline:!0,className:"w-full h-full md:hidden dark:invert",children:(0,n.jsx)("source",{className:"",src:"/videos/mobile_hero.mp4",type:"video/mp4"})})]}),(0,n.jsxs)("main",{className:`
             flex flex-col items-center bg-background px-4 mt-8 overflow-visible pb-16
-            md:h-full md:overflow-y-auto md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
+            md:h-max md:overflow-y-visible md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
             sticky top-0 z-30 content-center dark:invert`,children:[(0,n.jsxs)("section",{className:"flex flex-col",children:[(0,n.jsx)("p",{className:"block my-4 w-96",id:"about-me",children:"Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy. We delve into the science, technology, and societal implications of this transformative element."}),(0,n.jsx)("div",{className:"block rounded-lg border border-2 border-black w-64 m-auto dark:invert",children:(0,n.jsx)(o(),{className:`uppercase flex justify-center items-center rounded-md 
                   text-background bg-black
                   scale-x-95 scale-y-90 py-3 md:px-4 
