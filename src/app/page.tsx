@@ -29,7 +29,7 @@ export default function Home() {
           `
         }>
 
-          {/* hero */}
+          {/* hero vids */}
           <div className="sticky top-0 rounded-2xl dark:invert">
             <video
               controls autoPlay
@@ -47,17 +47,14 @@ export default function Home() {
             >
               <source className="" src="/videos/mobile_hero.mp4" type="video/mp4" />
             </video>
-
-
-
           </div>
 
           <main className={`
-            flexflex-col items-center bg-background rounded-b-2xl h-full px-4 pt-8 overflow-y-auto
+            flexflex-col items-center bg-background rounded-b-2xl h-screen md:h-full px-4 mt-8 overflow-visible md:overflow-y-auto
             sticky top-0 z-30 content-center mt-[calc(-4rem)] dark:invert`}>
             <section className={`h-48 flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
-              <p className={`my-4`}>
+              <p className={`my-4`} id="about-me">
                 Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
                 We delve into the science, technology, and societal implications of this transformative element.
               </p>

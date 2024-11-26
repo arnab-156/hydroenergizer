@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <footer className={
-            `group w-[calc(100%)] bottom-0 bg-commanderBlue flex flex-col items-center justify-center rounded-b-2xl h-50
+            `group w-[calc(100%)] bottom-0 bg-gray flex flex-col items-center justify-center rounded-b-2xl h-50
             `
         }>
             <Image
@@ -15,23 +15,23 @@ const Footer = () => {
                 unoptimized
             />
 
-            <section className=" w-full h-96 flex m-auto">
+            <section className="w-full h-96 flex m-auto">
                 <div className={`
                     grid grid-cols-1 md:grid-cols-2 md:grid-rows-3
                     lg:grid-cols-3 lg:grid-rows-2 gap-x-16 gap-y-4 mt-12 m-2 text-white
                     `}>
                     <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Company</h3>
-                        <p>About</p>
+                        <h3 className="text-2xl text-white underline">Company</h3>
+                        <Link href={'/#about-me'}>About</Link>
                         <p>Contact</p>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Shop</h3>
+                        <h3 className="text-2xl text-white underline">Shop</h3>
                     </div>
 
                     <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Social</h3>
+                        <h3 className="text-2xl text-white underline">Social</h3>
                         <Link href={'https://www.instagram.com/hydro_energizer/'}>Instagram</Link>
                     </div>
 
