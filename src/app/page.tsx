@@ -49,14 +49,14 @@ export default function Home() {
             flex flex-col items-center bg-background px-4 mt-8 overflow-visible pb-16
             md:h-full md:overflow-y-auto md:rounded-b-2xl mt-[calc(-4rem)] md:pb-0
             sticky top-0 z-30 content-center dark:invert`}>
-            <section className={`h-48 flex flex-col`}>
+            <section className={`flex flex-col`}>
               {/* Div is some text and a styled button, desktop has two images */}
-              <p className={`my-4 w-96`} id="about-me">
+              <p className={`block my-4 w-96`} id="about-me">
                 Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
                 We delve into the science, technology, and societal implications of this transformative element.
               </p>
 
-              <div className={`rounded-lg border border-2 border-black w-64 m-auto dark:invert`}>
+              <div className={`block rounded-lg border border-2 border-black w-64 m-auto dark:invert`}>
                 <Link className={
                   `uppercase flex justify-center items-center rounded-md 
                   text-background bg-black
@@ -67,6 +67,8 @@ export default function Home() {
                 </Link>
               </div>
             </section>
+
+
             <Footer />
           </main>
         </div>
