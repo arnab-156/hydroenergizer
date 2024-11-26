@@ -1,5 +1,5 @@
 import Image from "next/image";
-// import Link from 'next/link';
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -9,54 +9,44 @@ const Footer = () => {
         }>
             <Image
                 aria-hidden
-                src="/images/footer_name.png"
-                alt="stylized logo of commander's"
-                className="mt-24 px-24"
+                src="/images/hydrologo.gif"
+                alt="stylized logo"
+                className="mt-12 px-24 dark:invert"
                 unoptimized
             />
 
             <section className=" h-96 flex">
-                <div className="grid grid-cols-3 grid-rows-2 gap-x-16 gap-y-4 mt-12 m-2 text-commanderLight">
+                <div className={`
+                    grid grid-cols-1 md:grid-cols-2 md:grid-rows-3
+                    lg:grid-cols-3 lg:grid-rows-2 gap-x-16 gap-y-4 mt-12 m-2 text-white
+                    `}>
                     <div className="">
                         <h3 className="text-2xl text-chartreuse underline">Company</h3>
                         <p>About</p>
                         <p>Contact</p>
-                        <p>Le Petit Bleu</p>
                     </div>
+
                     <div className="">
-                        <h3 className="text-2xl  text-chartreuse underline">Shop</h3>
+                        <h3 className="text-2xl text-chartreuse underline">Shop</h3>
                     </div>
-                    <div className="">
-                        <h3 className="text-2xl text-chartreuse underline">Restaurant</h3>
-                        <p>Menus</p>
-                        <p>Private Dining</p>
-                        <p>Reservations</p>
-                        <p>FAQ</p>
-                    </div>
+
                     <div className="">
                         <h3 className="text-2xl text-chartreuse underline">Social</h3>
-                        <p>Instagram</p>
-                        <p>Facebook</p>
-                        <p>LinkedIn</p>
+                        <Link href={'https://www.instagram.com/hydro_energizer/'}>Instagram</Link>
                     </div>
+
                     <div className="">
                         <h3 className="text-2xl text-chartreuse underline">Contact Us</h3>
-                        <p>info@commanderspalace.com</p>
-                        <p>+1(504) 899-8221</p>
+                        <p>info@hydroenergizer.com</p>
+                        <p>+1(401) 871-1111</p>
                     </div>
+
                     <div className="">
                         <h3 className="text-2xl text-chartreuse underline">Location</h3>
-                        <p>1403 Washinton Ave</p>
-                        <p>New Orleans, LA 70130</p>
+                        <p>Washington DC</p>
+                        <p>Mountain View AR</p>
                     </div>
                 </div>
-                <Image
-                    aria-hidden
-                    src="/images/footer_frame.png"
-                    alt="stylized graphic"
-                    className="mt-24"
-                    unoptimized
-                />
             </section>
         </footer>
     )
