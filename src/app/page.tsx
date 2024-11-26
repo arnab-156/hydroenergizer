@@ -25,7 +25,7 @@ export default function Home() {
         {/* Inner Blk line wrapper */}
         <div className={
           `border border-5 border-black overflow-y-auto overflow-x-hidden
-          sm:w-full md:mt-16 h-[calc(95%-3rem)] 
+          sm:w-full md:mt-16 h-[calc(95%-3rem)] snap-x snap-center
           md:w-[calc(100%-2rem)] md:rounded-2xl
           `
         }>
@@ -88,19 +88,34 @@ export default function Home() {
               </p>
             </section>
 
-            <section className={$sectionClassName}>
-              <h1 className={`font-bold`}> What do we do?</h1>
-              <p className={$sectionPara}>We create Hydrogen products for</p>
-              <ul className={$sectionPara}>
-                <li>Health</li>
-                <li>Wellness</li>
-                <li>Life</li>
-                <li>Community</li>
-                <li>Earth</li>
-                <li>Universe</li>
-                <li>Multiverse</li>
-              </ul>
-            </section>
+            <div className={`flex flex-row w-full`}>
+              <section className={`flex flex-col w-1/2 px-2 my-4`}>
+                <h1 className={`${$sectionPara} font-bold`}> What do we do?</h1>
+                <p className={$sectionPara}>We create Hydrogen products for:</p>
+                <ul className={$sectionPara}>
+                  <li>Health</li>
+                  <li>Wellness</li>
+                  <li>Life</li>
+                  <li>Community</li>
+                  <li>Earth</li>
+                  <li>Universe</li>
+                  <li>Multiverse</li>
+                </ul>
+              </section>
+              <section className={`flex flex-col w-1/2 px-2 my-4`}>
+                <h1 className={`${$sectionPara} font-bold`}> Why should you care?</h1>
+                <p className={$sectionPara}>We create Hydrogen products for:</p>
+                <ul className={$sectionPara}>
+                  <li>Health</li>
+                  <li>Wellness</li>
+                  <li>Life</li>
+                  <li>Community</li>
+                  <li>Earth</li>
+                  <li>Universe</li>
+                  <li>Multiverse</li>
+                </ul>
+              </section>
+            </div>
 
 
             <Footer />
