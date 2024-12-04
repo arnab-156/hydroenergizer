@@ -56,8 +56,8 @@ export default function Home() {
             sticky top-0 z-30 content-center dark:invert`}>
             <section className={$sectionClassName}>
               <p className={$sectionPara} id="about-me">
-                Hydrogen is Life envisions a future powered by clean, efficient hydrogen energy.
-                We delve into the science, technology, and societal implications of this transformative element.
+                Hydro Life envisions a future powered by clean, efficient hydro based energy.
+                We delve into the science, technology, and societal implications of this transformative gift.
               </p>
 
               <p className={$sectionPara}>
@@ -74,14 +74,14 @@ export default function Home() {
               </p>
 
               <p className={$sectionPara}>
-                In the realm of energy, hydrogen offers a clean and efficient alternative to fossil fuels.
-                Through processes like electrolysis, hydrogen can be produced from water using renewable energy sources.
-                This "green hydrogen" can then be used to power fuel cells, generating electricity without harmful emissions.
-                Additionally, hydrogen can be stored and transported, making it a versatile energy carrier.
+                In the realm of energy, hydro-based energy offers a clean and efficient alternative.
+                Through variety of processes, hydro-energy can be produced from water using renewable energy sources.
+                This "hydro-energy can then be used to power energy, generating electricity without harmful emissions.
+                Additionally, hydro-energy can be stored and transported, making it a versatile energy carrier.
               </p>
 
               <p className={$sectionPara}>
-                Beyond energy, hydrogen's potential extends to other areas. Some scientists speculate that life forms based on hydrogen
+                Beyond energy, hydro energy's potential extends to other areas. Some scientists speculate that life forms based on hydro Life
                 could exist in extreme environments, such as deep-sea hydrothermal vents or extraterrestrial planets.
                 These hypothetical "hydrogen-based life" forms would use hydrogen as a source of energy and building blocks,
                 fundamentally different from carbon-based life on Earth.
@@ -91,7 +91,7 @@ export default function Home() {
             <div className={`flex flex-row w-full`}>
               <section className={`flex flex-col w-1/2 px-2 my-4`}>
                 <h1 className={`${$sectionPara} font-bold`}> What do we do?</h1>
-                <p className={$sectionPara}>We create Hydrogen products for:</p>
+                <p className={$sectionPara}>We create Hydro-resources for:</p>
                 <ul className={$sectionPara}>
                   <li>Health</li>
                   <li>Wellness</li>
@@ -104,15 +104,14 @@ export default function Home() {
               </section>
               <section className={`flex flex-col w-1/2 px-2 my-4`}>
                 <h1 className={`${$sectionPara} font-bold`}> Why should you care?</h1>
-                <p className={$sectionPara}>We create Hydrogen products for:</p>
+                <p className={$sectionPara}>We are making energy independence resources to</p>
                 <ul className={$sectionPara}>
-                  <li>Health</li>
-                  <li>Wellness</li>
-                  <li>Life</li>
-                  <li>Community</li>
-                  <li>Earth</li>
-                  <li>Universe</li>
-                  <li>Multiverse</li>
+                  <li>Save cost</li>
+                  <li>Reduce unnecessary trade of foreign energy</li>
+                  <li>National Security</li>
+                  <li>Self Reliance</li>
+                  <li>Control impact of extreme envoironment</li>
+                  <li>Create a Community Climate Santuary</li>
                 </ul>
               </section>
             </div>

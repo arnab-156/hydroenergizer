@@ -38,7 +38,7 @@ const Footer = () => {
                     <div className="">
                         <h3 className="text-2xl underline" id='contact'>Contact Us</h3>
                         <p>info@hydroenergizer.com</p>
-                        <p>+1(479) HYD-ROGEN</p>
+                        <p>+1(HYD)RO-ENERGY</p>
                     </div>
 
                     <div className="">
