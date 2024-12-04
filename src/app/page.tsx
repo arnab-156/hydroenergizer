@@ -83,7 +83,7 @@ export default function Home() {
               <p className={$sectionPara}>
                 Beyond energy, hydro energy's potential extends to other areas. Some scientists speculate that life forms based on hydro Life
                 could exist in extreme environments, such as deep-sea hydrothermal vents or extraterrestrial planets.
-                These hypothetical "hydrogen-based life" forms would use hydrogen as a source of energy and building blocks,
+                These hypothetical "hydro-based life" forms would use hydrogen as a source of energy and building blocks,
                 fundamentally different from carbon-based life on Earth.
               </p>
             </section>
